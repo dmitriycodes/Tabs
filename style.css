@@ -1,0 +1,40 @@
+body {
+	font-family: sans-serif;
+
+}
+
+.tab-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tab-menu__button {
+	margin: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;   
+}
+.tab-content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+.hiden-btn {
+	color: silver;
+}
+
+.active-btn {
+	color: #000;
+}
+
+.act-content {
+	display: block;
+}
+
+.hide-content {
+	display: none;
+}
